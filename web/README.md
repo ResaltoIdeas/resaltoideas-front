@@ -6,6 +6,8 @@ npm run dev
 
 http://localhost:3000 · panel: `/login`
 
+Producción: https://resalito-ideas.vercel.app
+
 ## Supabase (una vez)
 
 Los buckets `previews` y `deliverables` ya están creados. Falta pegar el SQL de tablas en el SQL Editor del proyecto:
