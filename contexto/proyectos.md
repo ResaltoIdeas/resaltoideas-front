@@ -8,7 +8,7 @@
 
 | Proyecto | Descripción | Prioridad |
 |----------|-------------|-----------|
-| Resalto Ideas — rewrite | Tienda de productos digitales. Migración `app-digitales` → `app-digitales2`. Stack y masterplan en `salidas/`. PRD en `/PRD.md`. | Alta |
+| Resalto Ideas — rewrite | App Next en `app-digitales2/web`. Login admin en `/login`. Catálogo JSON local hasta Supabase. | Alta |
 
 ---
 

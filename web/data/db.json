@@ -1,0 +1,163 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "slug": "pack-logos-cafeteria-lo-de-marta",
+      "title": "Pack logos cafetería Lo de Marta",
+      "description": "Isotipo y variaciones para cafetería de barrio. Archivos editables listos para imprimir y redes.",
+      "priceArs": 18500,
+      "category": "logos",
+      "featured": true,
+      "published": true,
+      "previewTone": "from-[#f3d0c4] to-[#e78cab]",
+      "files": [
+        {
+          "id": "f1",
+          "kind": "preview",
+          "displayName": "preview-isotipo.jpg",
+          "storagePath": null
+        },
+        {
+          "id": "f2",
+          "kind": "deliverable",
+          "displayName": "LoDeMarta.ai",
+          "storagePath": null
+        },
+        {
+          "id": "f3",
+          "kind": "deliverable",
+          "displayName": "LoDeMarta.svg",
+          "storagePath": null
+        },
+        {
+          "id": "f4",
+          "kind": "deliverable",
+          "displayName": "LoDeMarta.png",
+          "storagePath": null
+        }
+      ],
+      "createdAt": "2026-08-20T12:00:00.000Z"
+    },
+    {
+      "id": "p2",
+      "slug": "stickers-verano-palermo",
+      "title": "Stickers vectorizados Verano Palermo",
+      "description": "Cinco stickers de verano, trazo limpio, para stories y merch.",
+      "priceArs": 9900,
+      "category": "stickers",
+      "featured": true,
+      "published": true,
+      "previewTone": "from-[#f6bfd2] to-[#c9a227]",
+      "files": [
+        {
+          "id": "f5",
+          "kind": "preview",
+          "displayName": "preview-stickers.jpg",
+          "storagePath": null
+        },
+        {
+          "id": "f6",
+          "kind": "deliverable",
+          "displayName": "verano-palermo.zip",
+          "storagePath": null
+        }
+      ],
+      "createdAt": "2026-08-18T12:00:00.000Z"
+    },
+    {
+      "id": "p3",
+      "slug": "plantillas-stories-estudio-floral",
+      "title": "Plantillas Stories — estudio floral",
+      "description": "Plantillas editables para Instagram Stories, paleta floral, más PDF de uso.",
+      "priceArs": 12400,
+      "category": "plantillas",
+      "featured": true,
+      "published": true,
+      "previewTone": "from-[#e6f2e8] to-[#f6bfd2]",
+      "files": [
+        {
+          "id": "f7",
+          "kind": "preview",
+          "displayName": "preview-stories.jpg",
+          "storagePath": null
+        },
+        {
+          "id": "f8",
+          "kind": "deliverable",
+          "displayName": "stories-floral.psd",
+          "storagePath": null
+        },
+        {
+          "id": "f9",
+          "kind": "deliverable",
+          "displayName": "guia-de-uso.pdf",
+          "storagePath": null
+        }
+      ],
+      "createdAt": "2026-08-12T12:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "o1",
+      "productId": "p1",
+      "productTitle": "Pack logos cafetería Lo de Marta",
+      "buyerName": "Lucía Fernández",
+      "buyerEmail": "santiagoalvarezc5@gmail.com",
+      "totalArs": 18500,
+      "status": "delivered",
+      "createdAt": "2026-08-25T11:10:00.000Z",
+      "lastEmailError": null
+    },
+    {
+      "id": "o2",
+      "productId": "p3",
+      "productTitle": "Plantillas Stories — estudio floral",
+      "buyerName": "Diego Ríos",
+      "buyerEmail": "diego.rios@example.com",
+      "totalArs": 12400,
+      "status": "delivered",
+      "createdAt": "2026-08-25T09:40:00.000Z",
+      "lastEmailError": null
+    },
+    {
+      "id": "o3",
+      "productId": "p2",
+      "productTitle": "Stickers vectorizados Verano Palermo",
+      "buyerName": "Carla Méndez",
+      "buyerEmail": "carla.mendez@example.com",
+      "totalArs": 9900,
+      "status": "paid",
+      "createdAt": "2026-08-24T18:22:00.000Z",
+      "lastEmailError": null
+    }
+  ],
+  "settings": {
+    "name": "Resalto Ideas",
+    "tagline": "Tienda de productos digitales",
+    "heroTitle": "Diseños que pagás y te llegan al mail.",
+    "heroSubtitle": "Preview en la tienda. Archivos editables después de Mercado Pago.",
+    "contactEmail": "resaltoideas@gmail.com",
+    "instagramUrl": "https://instagram.com/resaltoideas",
+    "instagramHandle": "@resaltoideas",
+    "internationalTitle": "¿Comprás desde el exterior?",
+    "internationalBody": "Escribinos a resaltoideas@gmail.com y coordinamos el pago."
+  },
+  "legal": [
+    {
+      "slug": "terminos",
+      "title": "Términos y condiciones",
+      "body": "Al comprar un producto digital de Resalto Ideas aceptás estas condiciones. El archivo se entrega por email luego del pago con Mercado Pago. El acceso es personal y no incluye cesión de marca salvo que el producto lo indique."
+    },
+    {
+      "slug": "privacidad",
+      "title": "Privacidad",
+      "body": "Usamos tu nombre y email solo para cobrar, entregarte los archivos y responder consultas. No vendemos tu información. Contacto: resaltoideas@gmail.com."
+    },
+    {
+      "slug": "compra-entrega",
+      "title": "Compra y entrega digital",
+      "body": "Es un producto digital de entrega inmediata por email. Revisá que el correo esté bien escrito: si hay un error, no llega. En ese caso escribinos y lo reenviamos al mail correcto. No hay reembolso automático in-app; si corresponde, se gestiona a mano."
+    }
+  ]
+}

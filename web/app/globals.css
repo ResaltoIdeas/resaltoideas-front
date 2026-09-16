@@ -1,26 +1,116 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --ink: #4a2f3a;
+  --muted: #8f6f7e;
+  --rose: #e78cab;
+  --rose-deep: #c45d82;
+  --rose-light: #f6bfd2;
+  --rose-wash: #fff5f9;
+  --rose-mist: rgba(231, 140, 171, 0.2);
+  --line: rgba(231, 140, 171, 0.28);
+  --surface: #ffffff;
+  --ok: #3d7a64;
+  --warn: #c9a227;
+  --danger: #d96b91;
+  --mp: #009ee3;
+  --shadow-rose: 0 16px 48px rgba(231, 140, 171, 0.14);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-rose: var(--rose);
+  --color-rose-deep: var(--rose-deep);
+  --color-rose-light: var(--rose-light);
+  --color-rose-wash: var(--rose-wash);
+  --color-surface: var(--surface);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-danger: var(--danger);
+  --color-mp: var(--mp);
+  --font-sans: var(--font-jakarta);
+  --font-display: var(--font-fraunces);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(900px 600px at 20% 10%, var(--rose-mist), transparent 60%),
+    radial-gradient(900px 600px at 80% 90%, rgba(246, 191, 210, 0.24), transparent 60%),
+    var(--rose-wash);
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.font-display {
+  font-family: var(--font-fraunces), Georgia, serif;
+}
+
+.shadow-rose {
+  box-shadow: var(--shadow-rose);
+}
+
+.border-line {
+  border-color: var(--line);
+}
+
+@keyframes cf-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.cf-fade {
+  animation: cf-fade 300ms ease;
+}
+
+@keyframes catalog-rise {
+  from {
+    opacity: 0;
+    translate: 0 28px;
+    scale: 0.97;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1;
+  }
+}
+
+.catalog-card {
+  animation: catalog-rise 0.75s cubic-bezier(0.22, 1, 0.36, 1) both;
+  transition: transform 0.45s ease;
+}
+
+.catalog-card:hover {
+  transform: translateY(-8px) rotate(-0.5deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .catalog-card {
+    animation: none;
+  }
+
+  .catalog-card:hover {
+    transform: none;
+  }
 }
